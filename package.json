@@ -1,0 +1,22 @@
+{
+  "name": "super-rules",
+  "version": "0.0.0",
+  "description": "rules manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperID/super-rules.git"
+  },
+  "keywords": [
+    "rule"
+  ],
+  "author": "Zongmin Lei <leizongmin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperID/super-rules/issues"
+  },
+  "homepage": "https://github.com/SuperID/super-rules"
+}
