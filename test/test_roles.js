@@ -43,7 +43,9 @@ describe('SuperRoles', function () {
     user.is('e').should.equal(false);
     user.allow('a1').should.equal(true);
     user.allow('a2').should.equal(true);
+    user.forbid('a2').should.equal(false);
     user.allow('a3').should.equal(false);
+    user.forbid('a3').should.equal(true);
     user.allow('a4').should.equal(true); // undefined
 
     user = roles.user().role('b');
