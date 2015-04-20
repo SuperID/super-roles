@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/SuperID/super-rules/issues"
   },
-  "homepage": "https://github.com/SuperID/super-rules"
+  "homepage": "https://github.com/SuperID/super-rules",
+  "dependencies": {
+    "debug": "^2.1.3"
+  }
 }
